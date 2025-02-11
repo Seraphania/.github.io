@@ -11,8 +11,7 @@ def check_in(num):
                 return num
             else:
                 num = input("Please enter a whole number from 1-32:\n")
-        except:
-            ValueError
+        except ValueError:
             num = (input("Please enter a whole number from 1-32:\n"))
 
 def mess_up(string, madness):
