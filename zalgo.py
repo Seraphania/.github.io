@@ -1,3 +1,5 @@
+##  !/bin/python3
+
 import random
 import os
 
@@ -25,13 +27,13 @@ def mess_up(string, madness):
     return new_string
 
 def run_loop(inp):
-    if inp == "y":
+    if inp == "n":
         string = input("What text would you like messed up?:\n")
         madness = check_in(input("On a scale of 1-32, how messed up would you like it to be?\n"))
         os.system('clear')
         os.system('cls')
         print(mess_up(string, madness))
-        run_loop(input("Press 'y' to mess up more text, type 'ahhhh' to exit:\n"))
+        run_loop(input("Press 'n' to mess up more text, type 'ahhhh' to exit:\n"))
         os.system('clear')
         os.system('cls')
     elif inp == "ahhhh":
@@ -42,6 +44,7 @@ def run_loop(inp):
     else:
         os.system('clear')
         os.system('cls')
-        run_loop(input("would you like to exit? y/ahhhh?:\n"))
+        run_loop(input("would you like to exit? n/ahhhh?:\n"))
 
-run_loop("y")
+print("Welcome to a Silly  Z̜̄̎͗a̩̮̣ͨl͚̳̚͝g̦̭͕̚o̸̶̱ͭ-̨̦̗͋t̶͇̀͠e̗̦̚̚x̧̟̠̅t̛̖͐͠ generator")
+run_loop("n")
