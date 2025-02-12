@@ -1,5 +1,3 @@
-##  !/bin/python3
-
 import random
 import os
 
@@ -38,7 +36,7 @@ def run_loop(inp):
     elif inp == "ahhhh":
         os.system('clear')
         os.system('cls')
-        print("Thank you for messing up your text")
+        print("Thank you for messing up your text \nH̵͍̳̓̏̾ͤe͉̬̻̳̎̈ͅ C̶̢͎͎͗ͨ̅o̵̷͕̩ͭ͐͒m̵̭̹̻͚̓̈e̘̜̪͙̭͉ͩs̯̝͖ͬ̈͊͟!")
         exit()
     else:
         os.system('clear')
